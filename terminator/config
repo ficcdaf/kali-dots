@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+  layout_launcher = ""
+[profiles]
+  [[default]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.8
+    cursor_shape = ibeam
+    font = Fira Code Medium 16
+    foreground_color = "#c3c3c3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1e1e1e:#781e1e:#842121:#862121:#257a96:#259797:#a82929:#988d8d:#6c5959:#a12828:#b22c2c:#b42c2c:#32aac8:#32c9c9:#d14848:#c3c3c3"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
